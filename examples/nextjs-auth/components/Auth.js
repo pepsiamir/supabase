@@ -68,7 +68,7 @@ function Auth(props) {
         <>
           <h4>Sign in</h4>
           <form onSubmit={(e) => handleSignIn(e)}>
-            <label for="sign-in__email">Email</label>
+            <label htmlFor="sign-in__email">Email</label>
             <input
               id="sign-in__email"
               label="Email address"
